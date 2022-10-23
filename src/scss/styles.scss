@@ -1,6 +1,11 @@
+@import 'reset';
+
+* {
+box-sizing: border-box;
+}
+
 body {
-  background: peru;
-  a {
-    color: blue;
-  }
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: 0.8fr repeat(5, 1fr) 0.8fr;
 }
