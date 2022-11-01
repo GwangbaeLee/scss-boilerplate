@@ -1,6 +1,56 @@
-body {
-  background: peru;
-  a {
-    color: blue;
-  }
+@import 'reset';
+
+* {
+  box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+
+  padding: 5px 10px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  
+  margin-right: 20px;
+}
+.circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.center {
+  display: flex;
+}
+
+.right :first-child{
+  margin-right: 10px;
+}
+
+.c-0 {background-color: #DFCDAA;}
+.c-1 {background-color: #B96E46;}
+.c-2 {background-color: #CCA6EC;}
+.c-3 {background-color: #FC7B40;}
+.c-4 {background-color: #6C95CF;}
+.c-5 {background-color: #D3A335;}
+.c-6 {background-color: #ABA869;}
+.c-7 {background-color: #B3D5A3;}
